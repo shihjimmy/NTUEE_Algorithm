@@ -1,0 +1,32 @@
+This is README file for Algorithm PA#2
+Author: <Po-Ju,Shih,B09901081>
+Date:2022/11/4
+=====
+SYNOPSIS:
+
+./bin/mps <input-file-name> <output-file-name>
+=====
+DIRECTORY:
+
+bin/	  executable binary
+doc/	  reports
+inputs/   input data 
+outputs/  output result 
+lib/	  library
+src/ 	  source C++ codes
+utility/  checker
+======
+HOW TO CIMPILE:
+
+Then compile the demo, simply follow the following steps
+	make
+======
+HOW TO RUN:
+
+	cd bin/
+	./bin/mps <input-file-name> <output-file-name>
+======
+HOW TO VERIFY RESULT
+
+    cd utility/
+    ./PA2_Result_Checker <result_file_name>

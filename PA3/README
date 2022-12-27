@@ -1,0 +1,40 @@
+This is README file for Algorithm PA#3
+Author: <Po-Ju,Shih,B09901081>
+Date:2022/12/10
+=====
+SYNOPSIS:
+
+./bin/cb <input-file-name> <output-file-name>
+=====
+DIRECTORY:
+
+bin/	  executable binary
+doc/	  reports
+inputs/   input data 
+outputs/  output result 
+lib/	  library
+src/ 	  source C++ codes
+utility/  checker
+======
+HOW TO COMPILE:
+
+	make
+======
+HOW TO RUN:
+
+	cd bin/
+	./bin/cb <input-file-name> <output-file-name>
+======
+HOW TO VERIFY RESULT
+
+    cd bin/
+    ./PA3_Result_Checker <result_file_name>    
+======
+HOW I GET THE ANSWERS
+
+	1.Do Kruskal algorithm but edges are sorted from biggest to smallest
+	2.Record the edges to be deleted
+	3.If graph is undirected, finished
+	4.If graph is directed, add the deleted edge back to the graph(one by one),and check whether there are cycles
+	  -if there is a cycle,then that edge must be deleted
+	  -if not, it can be put back to the directed graph.
